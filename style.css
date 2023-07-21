@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.speciality{
+height: 567px;
+text-align: center;
+padding: 78px 0;
+
+}
+.speciality > h1{
+   margin-bottom: 55px;
+}
+.speciality__item{
+   max-width: 1269px;
+   margin: auto;
+   display: grid;
+   grid-template-columns:repeat(4,1fr) ;
+    grid-template-rows: repeat(2,148px);
+    gap: 24px;
+
+} 
+
